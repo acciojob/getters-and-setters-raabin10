@@ -12,9 +12,7 @@ class Person {
     return this._age;
   }
 
-  introduce() {
-    console.log(`Hello, my name is ${this._name} and I am ${this._age} years old.`);
-  }
+  
 }
 
 class Student extends Person {
